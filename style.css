@@ -17,7 +17,7 @@ h1, h2 {
 }
 
 .site-logo {
-    max-width: 150px; /* Limita o tamanho da sua logo */
+    max-width: 250px; /* AUMENTADO PARA 250px */
     height: auto;
     margin-bottom: 10px;
 }
@@ -81,7 +81,6 @@ footer {
     margin-top: 2rem;
 }
 
-/* Estilo para o link do Discord */
 .discord-link {
     color: #fff; /* Cor do link branco */
     text-decoration: none; /* Sem sublinhado padrão */
