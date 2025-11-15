@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000; /* Preto FoxBlood */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 3px solid #ff4500; /* Vermelho Alaranjado */
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.progress {
+    background-color: #ff4500; /* Vermelho FoxBlood */
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    box-sizing: border-box;
+    transition: width 0.5s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000; /* Preto FoxBlood */
+    color: #fff;
+    /* Remover position: fixed se o conteúdo for muito longo */
+    position: static; 
+    width: 100%;
+    margin-top: 2rem;
+}
