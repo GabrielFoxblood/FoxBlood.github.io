@@ -1,12 +1,27 @@
 /* Esquema de Cores FoxBlood: Fundo Vermelho, Texto em Preto/Branco */
 
+/* Definindo as fontes: Creepster para títulos, Roboto Mono para o corpo */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace; /* Fonte principal */
     background-color: #ff0000; /* Fundo principal: VERMELHO PURO */
     color: #000; /* Cor do texto padrão: PRETO */
     margin: 0;
     padding: 0;
     line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Creepster', cursive; /* Fonte Gótica para títulos */
+    text-transform: uppercase;
+    color: #000;
+}
+
+.site-logo {
+    max-width: 150px; /* Limita o tamanho da sua logo */
+    height: auto;
+    margin-bottom: 10px;
+    /* Adiciona um filtro preto e branco na logo para combinar com o tema, se ela for colorida */
+    /* filter: grayscale(100%); */ 
 }
 
 header {
@@ -15,6 +30,10 @@ header {
     padding: 1rem 0;
     text-align: center;
     border-bottom: 3px solid #fff; /* Borda branca para contraste */
+}
+
+header h1 {
+    color: #fff; /* Título no header deve ser branco */
 }
 
 main {
@@ -27,16 +46,18 @@ main {
     background-color: #fff; /* Fundo das caixas de projeto: BRANCO */
     padding: 1.5rem;
     margin-bottom: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Sombra preta mais forte */
+    border: 2px solid #000; /* Borda preta forte */
+    border-radius: 0; /* Remove bordas arredondadas para um visual mais agressivo */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8); /* Sombra preta mais forte */
 }
 
 .progress-bar {
-    background-color: #eee; /* Fundo da barra de progresso (vazio) */
-    height: 20px;
-    border-radius: 10px;
+    background-color: #333; /* Fundo da barra de progresso (vazio) */
+    height: 25px; /* Barra mais grossa */
+    border-radius: 0;
     overflow: hidden;
     margin-top: 0.5rem;
+    border: 1px solid #000;
 }
 
 .progress {
@@ -47,6 +68,9 @@ main {
     color: white;
     box-sizing: border-box;
     transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 footer {
