@@ -20,8 +20,6 @@ h1, h2 {
     max-width: 150px; /* Limita o tamanho da sua logo */
     height: auto;
     margin-bottom: 10px;
-    /* Adiciona um filtro preto e branco na logo para combinar com o tema, se ela for colorida */
-    /* filter: grayscale(100%); */ 
 }
 
 header {
@@ -81,4 +79,21 @@ footer {
     position: static; 
     width: 100%;
     margin-top: 2rem;
+}
+
+/* Estilo para o link do Discord */
+.discord-link {
+    color: #fff; /* Cor do link branco */
+    text-decoration: none; /* Sem sublinhado padrão */
+    font-weight: bold;
+    margin-top: 10px;
+    display: block; /* Garante que o link fique em sua própria linha */
+    border: 1px solid #fff; /* Adiciona uma borda branca */
+    padding: 5px 10px;
+    display: inline-block; /* Permite padding e margem */
+}
+
+.discord-link:hover {
+    background-color: #ff0000; /* Fundo vermelho ao passar o mouse */
+    color: #000;
 }
