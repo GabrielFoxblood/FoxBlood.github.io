@@ -1,18 +1,20 @@
+/* Esquema de Cores FoxBlood: Fundo Vermelho, Texto em Preto/Branco */
+
 body {
     font-family: sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ff0000; /* Fundo principal: VERMELHO PURO */
+    color: #000; /* Cor do texto padrão: PRETO */
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #000; /* Preto FoxBlood */
-    color: #fff;
+    background-color: #000; /* Fundo do cabeçalho: PRETO */
+    color: #fff; /* Texto do cabeçalho: BRANCO */
     padding: 1rem 0;
     text-align: center;
-    border-bottom: 3px solid #ff4500; /* Vermelho Alaranjado */
+    border-bottom: 3px solid #fff; /* Borda branca para contraste */
 }
 
 main {
@@ -22,15 +24,15 @@ main {
 }
 
 .project {
-    background-color: #fff;
+    background-color: #fff; /* Fundo das caixas de projeto: BRANCO */
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Sombra preta mais forte */
 }
 
 .progress-bar {
-    background-color: #e0e0e0;
+    background-color: #eee; /* Fundo da barra de progresso (vazio) */
     height: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -38,7 +40,7 @@ main {
 }
 
 .progress {
-    background-color: #ff4500; /* Vermelho FoxBlood */
+    background-color: #000; /* Preenchimento da barra: PRETO */
     height: 100%;
     text-align: right;
     padding-right: 10px;
@@ -50,9 +52,8 @@ main {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #000; /* Preto FoxBlood */
-    color: #fff;
-    /* Remover position: fixed se o conteúdo for muito longo */
+    background-color: #000; /* Fundo do rodapé: PRETO */
+    color: #fff; /* Texto do rodapé: BRANCO */
     position: static; 
     width: 100%;
     margin-top: 2rem;
